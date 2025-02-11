@@ -1,0 +1,4 @@
+Annelise
+ 1.beep and stay locked and not flash lights.
+ 2.Btn press override auto-locking.
+ 3. continue to beep or flash until not holding.

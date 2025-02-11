@@ -1,0 +1,4 @@
+Siri
+1.Do nothing when far
+2.Keyfob over auto-locking
+3. Watch for pressing and re-release.
