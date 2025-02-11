@@ -1,0 +1,33 @@
+v2.0 raw
+1205 # LOAD ACC; Load IR (0)
+0234 #	Load ACC
+0000 #	unused
+0000 #	unused
+1205 # ADD ACC; Load IR (1)
+0294 #	ADD
+0000 #	unused
+0000 # 	unused
+1205 # STOP; Load IR (2)
+1000 #	stay here
+0000 #	unused
+0000 #	unused
+1205 # AND; Load IR (3)
+0214 #  Compairs value
+0000 #	unused
+0000 #	unused
+1205 # ZERO; Load IR (4)
+00D8 #  Uses the current acc for subtraction
+0000 #	unused
+0000 #	unused
+1205 # SUB; Load IR (5)
+02D4 # Uses the selected value for subtraction
+0000 #	unused
+0000 #	unused
+1205 # STORE ACC; Load IR (6)
+2304 #  Selects the desired address
+000A #  Stores into ram
+0000 #  unused
+1205 # DOUBLE; Load IR (7)
+0098 #  Adds the accumulation to itself
+0000 #  unused
+3FFF

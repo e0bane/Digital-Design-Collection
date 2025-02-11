@@ -1,0 +1,62 @@
+[*]
+[*] GTKWave Analyzer v3.3.108 (w)1999-2020 BSI
+[*] Fri Apr 05 01:47:38 2024
+[*]
+[dumpfile] "C:\Users\super\OneDrive - Arizona State University\Ditital Design\Lab 4\micro_waves.vcd"
+[dumpfile_mtime] "Fri Apr 05 01:41:00 2024"
+[dumpfile_size] 37690
+[savefile] "C:\Users\super\OneDrive - Arizona State University\Ditital Design\Lab 4\wave data\zero_wave.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -1 -1
+*-3.901000 15 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] micro_top.
+[treeopen] micro_top.microprocessor.
+[sst_width] 288
+[signals_width] 170
+[sst_expanded] 1
+[sst_vpaned_height] 306
+@28
+micro_top.microprocessor.clk
+micro_top.microprocessor.reset
+@200
+-
+-Controller
+@28
+micro_top.microprocessor.controller_i2.load_ir
+@22
+micro_top.microprocessor.controller_i2.instr_reg[3:0]
+@28
+micro_top.microprocessor.controller_i2.step_reg[1:0]
+@22
+micro_top.microprocessor.controller_i2.rom_out[13:0]
+@200
+-
+-Address Gen
+@22
+micro_top.microprocessor.addr_gen_i1.addr_bus[3:0]
+@28
+micro_top.microprocessor.addr_gen_i1.use_pc
+@22
+micro_top.microprocessor.addr_gen_i1.pc[3:0]
+@28
+micro_top.microprocessor.addr_gen_i1.load_mar
+@22
+micro_top.microprocessor.addr_gen_i1.mar[3:0]
+@200
+-
+-Brainless
+@22
+micro_top.microprocessor.brainless_i0.accum[3:0]
+micro_top.microprocessor.brainless_i0.alu_out[3:0]
+micro_top.microprocessor.brainless_i0.data_bus[3:0]
+@28
+micro_top.microprocessor.brainless_i0.arith
+micro_top.microprocessor.brainless_i0.invert
+micro_top.microprocessor.brainless_i0.pass
+micro_top.microprocessor.brainless_i0.acc_to_db
+micro_top.microprocessor.brainless_i0.load_acc
+micro_top.microprocessor.brainless_i0.read
+micro_top.microprocessor.brainless_i0.write
+[pattern_trace] 1
+[pattern_trace] 0
